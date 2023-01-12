@@ -1,0 +1,101 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    /* outline: 3px solid red; */
+
+    --main: 100vh;
+    --page: calc(100% - 400px);
+}
+
+.global_background{
+    background-image: url(resources/spruce_planks.png);
+}
+
+.global_divmain{
+    height: var(--main);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.global_divmenu{
+    height: 100%;
+    width: 20%;
+    background-image: url(resources/stripped_oak_log.png);
+}
+
+.global_divflex1{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.global_divheader{
+    height: 200px;
+    width: 100%;
+    background-image: url(resources/header_moss.png);
+    background-position: bottom;
+}
+
+.global_divfooter{
+    height: 200px;
+    width: 100%;
+    background-image: url(resources/stone.png);
+}
+
+.global_divflex2{
+    height: var(--page);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.global_divpagemenu{
+    height: calc(100% - 40px);
+    width: calc(15% - 25px);
+    margin: 0px 10px 40px 15px;
+    background-image: url(resources/light_gray_stained_glass.png);
+    border-radius: 25px;
+    outline: 6px solid #9999999b;
+
+    font-size: 20px;
+}
+
+.global_divpage{
+    height: calc(100% - 40px);
+    width: calc(85% - 25px);
+    margin: 0px 15px 40px 10px;
+    background-image: url(resources/white_stained_glass.png);
+    border-radius: 50px;
+    outline: 6px solid #ffffff9b;
+
+    font-size: 20px;
+}
+
+@media (max-height: 750px){
+    .global_divflex2{
+        height: 350px;
+    }
+}
+
+@media (max-height: 750px){
+    .global_divheader, .global_divfooter{
+        height: calc(50% - 175px);
+    }
+}
+
+@media (max-height: 550px){
+    .global_divheader, .global_divfooter{
+        height: 100px;
+    }
+}
+
+@media (max-height: 550px){
+    .global_divmain{
+        height: 550px;
+    }
+}
