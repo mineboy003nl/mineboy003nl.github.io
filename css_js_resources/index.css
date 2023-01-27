@@ -1,0 +1,40 @@
+
+
+.page{
+    font-size: large;
+}
+
+.menu_text{
+    color: #AA0000;
+    text-decoration: underline;
+}
+
+.menu_text:hover{
+    color: #FF5555;
+    text-decoration: none;
+}
+
+.menu_text:active{
+    color: #55FF55;
+    text-decoration: none;
+}
+
+.divpage{
+    height: calc(100% - 90px);
+    width: calc(100% - 75px);
+    margin: 0px 15px 40px 10px;
+    background-image: url(resources/backgrounds/white_stained_glass.png);
+    border-radius: 50px;
+    outline: 6px solid #ffffff9b;
+    font-size: 17px;
+    padding: 25px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+@media (max-width: 650px){
+    .divpage{
+        width: calc(100% - 80px);
+        margin: 0px 15px 40px;
+    }
+}

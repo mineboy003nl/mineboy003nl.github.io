@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css_js_resources/global.css">
+    <link rel="stylesheet" href="css_js_resources/basics.css">
+    
+    <title>Command Basics | Minecraft Datapack Wiki</title>
+</head>
+<body class="global_background">
+
+    <!-----MAIN-FLEXBOX----->
+    <div class="global_divmain">
+      <input type="checkbox" id="toggle" class="checkbox">
+      <!-----MENU----->
+      <div class="global_divmenu">
+
+        <h1 class="global_menutext" style="font-size: xxx-large;">MENU</h1>
+
+        <p class="global_menutext">
+          <br>
+          <ul class="global_menutext">
+            <li><a href="index.html">Homepage.</a></li><br>
+            <li><a href="usage.html">How to use?</a></li><br>
+            <!-- <li><a href="basics.html">Basic commands.</a></li><br> -->
+            <li><a href="targets.html">Target selectors.</a></li><br>
+            <li><a href="execute.html">Execute command.</a></li><br>
+            <li><a href="template.html">Template file.</a></li>
+          </ul>
+        </p>
+
+      </div>
+      <!-----FLEXBOX-2----->
+      <div class="global_divflex1">
+        <!-----HEADER----->
+        <div class="global_divheader">
+
+          <label for="toggle"><img src="css_js_resources/resources/end_rod_menu.png" class="menu_button"></label>
+          <img src="css_js_resources/resources/command_wiki_logo.png" class="logo">
+
+        </div>
+        <!-----FLEXBOX-3----->
+        <div class="global_divflex2">
+          <!-----PAGE-MENU----->
+          <div class="global_divpagemenu">
+
+            <h2 class="pagemenu_text">Navigate.</h2>
+
+            <p>
+              <br>
+              <ul>
+                <li class="pagemenu_text"><a href="#tp" class="pagemenu_text">tp</a></li><br>
+                <li class="pagemenu_text"><a href="#fill" class="pagemenu_text">fill</a></li><br>
+                <li class="pagemenu_text"><a href="#give" class="pagemenu_text">give</a></li><br>
+                <li class="pagemenu_text"><a href="#gamerule" class="pagemenu_text">gamerule</a></li><br>
+              </ul>
+            </p>
+
+          </div>
+          <!-----PAGE----->
+          <div class="global_divpage">
+
+            <!-----text----->
+            <h3 class="page_text" style="font-size: x-large;">Basic commands.</h3>
+            <p class="page_text">
+              <br>
+              If you want to use commands it can be usefull to know what what some basic commands are. 
+              So i wil tell you some basic commands to get you started.
+              <hr><br>
+            </p>
+
+            <h6><a id="tp" class="link_ids">TP.</a></h6>
+            <p>
+              TP is a very simple command to teleport entity's, it is set up in this way: <i>/tp [target selector] [coordinations <b>or</b> target selector</i>. 
+              the first target selector specifies wich entity needs to be teleported, 
+              the coordinations makes that entity teleport to that cords and the second target selector makes the entity teleport to the entity specified.
+              <br><br>
+            </p>
+
+            <h6><a id="fill" class="link_ids">Fill.</a></h6>
+            <p>
+              The fill command is also very simple, it is set up in this way: <i>/fill [coordinations][coordinations] [block]</i>. 
+              When you have two coordinations specified it will fill a square or rectangle with the block you specified.
+              <br><br>
+            </p>
+
+            <h6><a id="give" class="link_ids">Give.</a></h6>
+            <p>
+              Give is set up in this way: <i>/give [target selector] [item] [count]</i>. 
+              The item can be <b>any</b> item that exists (even ones that aren't in the creative menu) and the count can be any number, 
+              but if this munber is higher than 64 it will give multiple stacks to the selected entity.
+              <br><br>
+            </p>
+
+            <h6><a id="gamerule" class="link_ids">Gamerule.</a></h6>
+            <p>
+              Gamerule is the hardest of this list, it is set up in this way: <i>/gamerule [gamerule name] [true/false]</i>. 
+              Gamerules are a simple way to change how to game behaves, 
+              you can change the day/night cicle or fire damage. 
+              Basicly it is a way to change small simple thing from the game, <a href="https://minecraft.fandom.com/wiki/Game_rule?so=search" target="_blank">here</a> is a wiki page about gamerules.
+              <br><br>
+            </p>
+
+            <p>
+              <hr><br>
+              For a more indept look to commands see the <a href="https://minecraft.fandom.com/wiki/Commands?so=search" target="_blank">wiki</a> page about commands.
+            </p>
+            <!-----/text----->
+
+          </div>
+        </div>
+        <!-----FOOTER----->
+        <div class="global_divfooter">
+
+          <h8 class="global_footertext" style="font-size: large;">For more info check:</h8>
+
+          <p class="global_footertext">
+            <br>
+            <a class="global_linkfooter" href="https://minecraft.fandom.com/wiki/Minecraft_Wiki" target="_blank">Minecraft Wiki</a><br>
+            <a class="global_linkfooter" href="https://www.minecraft.net/nl-nl" target="_blank">Minecraft.net</a>
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>  

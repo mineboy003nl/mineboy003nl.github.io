@@ -1,0 +1,57 @@
+
+.pagemenu_text{
+    color: #3d3d3d;
+}
+
+a.pagemenu_text:link{
+    color: #00AAAA;
+    text-decoration: underline;
+}
+
+a.pagemenu_text:visited{
+    color: #00AAAA;
+    text-decoration: underline;
+}
+
+a.pagemenu_text:hover{
+    color: #55FFFF;
+    text-decoration: none;
+}
+
+a.pagemenu_text:active{
+    color: #55FF55;
+    text-decoration: none;
+}
+
+li.pagemenu_text{
+    color: #00AAAA;
+}
+
+.page_text{
+    font-size: large;
+}
+
+.link_ids{
+    color: black;
+    font-size: large;
+}
+
+a.link_ids:visited{
+    color: black;
+    text-decoration: none;
+}
+
+a.link_ids:hover{
+    color: black;
+    text-decoration: none;
+}
+
+a.link_ids:active{
+    color: black;
+    text-decoration: none;
+}
+
+.command_block{
+    float: right;
+    width: 100px;
+}
