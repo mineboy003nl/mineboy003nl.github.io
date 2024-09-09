@@ -1,0 +1,57 @@
+.Intro{
+    background-color: var(--LightYellow);
+    text-align: center;
+    color: var(--Four);
+    outline: 4px solid var(--LightYellow);
+    margin-left: 8px;
+    margin-right: 8px;
+    width: calc(50%-16px);
+}
+
+.Intro h2{
+    margin-top: 25px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.Intro p{
+    padding: 15px;
+}
+
+.PicDiv{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    outline: 4px solid var(--Four);
+}
+
+.Me{
+    background-color: #a4fcfa;
+    outline: 4px solid #a4fcfa;
+    text-align: center;
+}
+
+.Uitleg{
+    background-color: var(--Four);
+    text-align: center;
+    color: white;
+    outline: 4px solid var(--Four);
+    margin-left: 8px;
+    margin-right: 8px;
+    width: calc(50%-16px);
+}
+
+.Uitleg h2{
+    margin-top: 25px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.Uitleg p{
+    padding: 15px;
+}
+
+#NHL{
+    width: 100%;
+}
