@@ -1,0 +1,29 @@
+.Intro{
+    background-color: var(--LightYellow);
+    text-align: center;
+    color: var(--Four);
+    outline: 4px solid var(--LightYellow);
+    width: calc(50%-16px);
+}
+
+.PicDiv{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    outline: 4px solid var(--Four);
+}
+
+.Me{
+    background-color: #a4fcfa;
+    outline: 4px solid #a4fcfa;
+    text-align: center;
+}
+
+.Uitleg{
+    background-color: var(--Four);
+    text-align: center;
+    color: white;
+    outline: 4px solid var(--Four);
+    width: calc(50%-16px);
+}
