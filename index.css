@@ -27,3 +27,10 @@
     outline: 4px solid var(--Four);
     width: calc(50%-16px);
 }
+
+.Ambitie{
+    background-color: var(--Eight);
+    outline: 4px solid var(--Eight);
+    color: white;
+    text-align: center;
+}
