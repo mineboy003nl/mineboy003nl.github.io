@@ -10,6 +10,15 @@
     border-radius: 20px;
 }
 
+.Fototjes::-webkit-scrollbar{
+    background-color: #ffffff00;
+    width: 10px;
+}
+
+.Fototjes::-webkit-scrollbar-thumb{
+    border-radius: 15px;
+}
+
 .FototjesW{
     text-align: center;
     overflow-x: hidden;
@@ -21,12 +30,12 @@
     border-radius: 20px;
 }
 
-.Fototjes::-webkit-scrollbar{
+.FototjesW::-webkit-scrollbar{
     background-color: #ffffff00;
     width: 10px;
 }
 
-.Fototjes::-webkit-scrollbar-thumb{
+.FototjesW::-webkit-scrollbar-thumb{
     border-radius: 15px;
 }
 
@@ -44,6 +53,16 @@
 .Text{
     text-align: center;
     color: white;
+    overflow-y: scroll;
+}
+
+.Text::-webkit-scrollbar{
+    background-color: #ffffff00;
+    width: 10px;
+}
+
+.Text::-webkit-scrollbar-thumb{
+    border-radius: 15px;
 }
 
 .Eight{
@@ -93,7 +112,3 @@ iframe{
     height: 100%;
     border-radius: 10px;
 }
-
-/* *{
-    outline:red 3px solid;
-} */
