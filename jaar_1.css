@@ -1,0 +1,131 @@
+
+img{
+    border-radius: 20px;
+}
+
+.Fototjes{
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.Fototjes img{
+    height: 100%;
+}
+
+.Fototjes::-webkit-scrollbar{
+    background-color: #ffffff00;
+    width: 10px;
+}
+
+.Fototjes::-webkit-scrollbar-thumb{
+    border-radius: 15px;
+}
+
+.FototjesW{
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.FototjesW img{
+    width: 100%;
+}
+
+.FototjesW::-webkit-scrollbar{
+    background-color: #ffffff00;
+    width: 10px;
+}
+
+.FototjesW::-webkit-scrollbar-thumb{
+    border-radius: 15px;
+}
+
+.Fototje{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+.Fototje img{
+    height: 100%;
+}
+
+.FototjeW{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+.FototjeW img{
+    width: 100%;
+}
+
+.Text{
+    text-align: center;
+    color: white;
+    overflow-y: scroll;
+}
+
+.Text::-webkit-scrollbar{
+    background-color: #ffffff00;
+    width: 10px;
+}
+
+.Text::-webkit-scrollbar-thumb{
+    border-radius: 15px;
+}
+
+.Eight{
+    background-color: var(--Eight);
+    outline: 4px solid var(--Eight);
+}
+
+.Eight::-webkit-scrollbar-thumb{
+    background-color: var(--Four);
+}
+
+.Four{
+    background-color: var(--Four);
+    outline: 4px solid var(--Four);
+}
+
+.Four::-webkit-scrollbar-thumb{
+    background-color: var(--Eight);
+}
+
+.Filmpje{
+    display: flex;
+    overflow: hidden;
+}
+
+.Filmpje video{
+    width: 100%;
+    align-self: center;
+}
+
+.LightYellow{
+    background-color: var(--LightYellow);
+    outline: 4px solid var(--LightYellow);
+    color: var(--Four);
+}
+
+.LightYellow::-webkit-scrollbar-thumb{
+    background-color: var(--Four);
+}
+
+.Files{
+    color: white;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* *{
+    outline:red 3px solid;
+} */
