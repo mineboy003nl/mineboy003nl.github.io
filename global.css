@@ -1,0 +1,362 @@
+/* 500 kleurtjes
+#6d6d6d
+#f0c907
+#ee469d */
+
+:root{
+    --D: #dddddd;
+    --E: #eeeeee;
+    --Eight: #888888;
+    --Four: #444444;
+    --Yellow: #f0c907;
+    --DarkYellow: #e3be09;
+    --LightYellow: #fff5c4;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    z-index: 10;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--E);
+    height: 100vh;
+    width: 100vw;
+}
+
+#HeadLeft{
+    background-color: var(--Eight);
+    height: 20%;
+    width: calc(100%-40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#HeadCenter{
+    height: calc(20%-20px);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: larger;
+}
+
+#HeadRight{
+    background-color: var(--Eight);
+    height: 20%;
+    width: calc(100%-40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.LinkBtn {
+    color: white;
+    font-size: 100%;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-bottom: var(--Eight) solid 3px;
+    width: calc(80%-10px);
+    /* outline: blue 3px solid; */
+}
+
+.LinkBtn:hover{
+    color: var(--D);
+}
+
+.DropDown{
+    position: relative;
+    display: inline-block;
+    /* outline: green 3px solid; */
+}
+
+.DropBtn{
+    color: white;
+    font-size: 100%;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-bottom: var(--Eight) solid 3px;
+    width: calc(80%-10px);
+    /* outline: orangered 3px solid; */
+}
+
+.DropContent{
+    display: none;
+    position: absolute;
+    background-color: var(--Yellow);
+    box-shadow: 5px 5px 3px #00000044;
+    min-width: 75px;
+    width: 175%;
+    z-index: 15;
+    border-radius: 8px;
+}
+
+.DropContent a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    padding: 5px
+}
+
+.DropDown:hover .DropContent{
+    display: block;
+}
+
+.DropDown:hover .DropBtn{
+    color: var(--D);
+}
+.DropContent a:hover{
+    color: var(--D);
+    background-color: var(--DarkYellow);
+    border-radius: 8px;
+}
+
+.Here{
+    border-bottom: var(--Yellow) solid 3px;
+}
+
+.Here:hover{
+    border-bottom: var(--DarkYellow) solid 3px;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+#ContentTop{
+    width: 100%;
+    height: 50%;
+    min-height: 300px;
+    max-height: 600px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-bottom: 2%;
+}
+
+#ContentBottom{
+    width: 100%;
+    height: 50%;
+    background-color: var(--E);
+    font-size: large;
+}
+
+#ContentLeft{
+    height: 100%;
+    width: 25%;
+}
+
+#ContentCenter{
+    height: calc(100%-20px);
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-image: url(media/skyscrapers.jpg);
+    background-size: cover;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0px 10px 6px #00000066;
+}
+
+#ContentRight{
+    height: 100%;
+    width: 25%;
+}
+
+#OverPic{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.OverPicContent{
+    color: var(--Four);
+    background-color: #cccccc88;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.Devide{
+    width: 100%;
+    height: 25%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 4px;
+    padding-bottom: 4px; */
+    /* outline: purple 3px solid; */
+}
+
+.DevideDouble{
+    width: 100%;
+    height: 50%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 4px;
+    padding-bottom: 4px; */
+    /* outline: purple 3px solid; */
+}
+
+.DevideTriple{
+    width: 100%;
+    height: 75%;
+    min-height: 900px;
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 4px;
+    padding-bottom: 4px; */
+    /* outline: purple 3px solid; */
+}
+
+.DevideVertical{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 4px;
+    padding-right: 4px; */
+    /* outline: red 3px solid; */
+}
+
+.DevideVerticalDouble{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 4px;
+    padding-right: 4px; */
+    /* outline: red 3px solid; */
+}
+
+.DevideVerticalTriple{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 4px;
+    padding-right: 4px; */
+    /* outline: red 3px solid; */
+}
+
+.DevideVerticalTTriple{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 4px;
+    padding-right: 4px; */
+    /* outline: red 3px solid; */
+}
+
+.Kwart{
+    height: calc(100% - 8px);
+    width: calc(25% - 8px);
+    border-radius: 20px;
+    margin: 4px;
+    /* background-color: blue; */
+}
+
+.Half{
+    height: calc(100% - 8px);
+    width: calc(50% - 8px);
+    border-radius: 20px;
+    margin: 4px;
+    /* background-color: red; */
+}
+
+.DrieKwart{
+    height: calc(100% - 8px);
+    width: calc(75% - 8px);
+    border-radius: 20px;
+    margin: 4px;
+    /* background-color: green; */
+}
+
+.HalfHalf{
+    height: calc(50% - 8px);
+    width: calc(50% - 8px);
+    border-radius: 20px;
+    margin: 4px;
+    /* background-color: blue; */
+}
+
+.HeelHalf{
+    height: calc(50% - 8px);
+    width: calc(100% - 8px);
+    border-radius: 20px;
+    margin: 4px;
+    /* background-color: red; */
+}
+
+.H2{
+    margin-top: 25px;
+    width: 100%;
+    padding-bottom: 30px;
+    /* outline: blue 3px solid; */
+}
+
+.H3{
+    margin-top: 25px;
+    width: 100%;
+    padding-bottom: 15px;
+    /* outline: purple 3px solid; */
+}
+
+.P{
+    padding: 15px;
+    /* outline: red 3px solid; */
+}
+
+.ConnectRight{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.ConnectLeft{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.ConnectBottom{
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.ConnectTop{
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+embed{
+    border-radius: 20px;
+}
